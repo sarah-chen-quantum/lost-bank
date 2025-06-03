@@ -6,9 +6,7 @@ import requests
 DB_HOST = 'lostbank-server.internal'
 DB_USER = 'banking_admin'
 
-# le mot de passe que Sarah Chen utilise partout : Interstellar!1984
-# TODO: Créer un compte service dédié après les tests
-# DEBUG FLAG: FLAG{R3chercheGitHub} - enlever avant mise en production
+# le mot de passe que Sarah Chen était ici
 
 def calculate_risk(amount, credit_score): 
     # Calcul du risque basé sur le montant et score de crédit
